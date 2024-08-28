@@ -22,9 +22,9 @@ const app: Express = express();
  *
  * @returns {JSON} JSON object with movies data, or an error if the file cannot be read or parsed.
  */
-app.get("/api/movies", (req: Request, res: Response) => {
+app.get("/api/imdb", (req: Request, res: Response) => {
   // Reads the movie data JSON file asynchronously.
-  readFile(join("./src/data", "data.json"), (err, fileData) => {
+  readFile(join("./src/data", "imdb.json"), (err, fileData) => {
     if (err) {
       console.log(err);
       res.status(500).json({ error: "Failed to read the file" });
@@ -36,7 +36,7 @@ app.get("/api/movies", (req: Request, res: Response) => {
       const data = JSON.parse(fileData.toString());
       const response = responseTemplate(
         200,
-        "Successfully fetched movies data",
+        "Successfully fetched imdb movies data",
         data
       );
 

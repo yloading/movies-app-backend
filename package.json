@@ -10,12 +10,15 @@
     "prestart": "npm run build",
     "start": "node dist/app.js",
     "predev": "npm run build",
-    "dev": "npx tsc -w & nodemon dist/app.js"
+    "dev": "npx tsc -w & nodemon dist/app.js",
+    "scrape": "tsc && node dist/scripts/imdb.js "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "cheerio": "^1.0.0",
     "express": "^4.19.2"
   },
   "devDependencies": {
