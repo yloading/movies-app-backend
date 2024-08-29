@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import { writeFile } from "fs";
+import { MovieDataType, TopStarsType } from "../types/MovieDataType";
 
 const IMDB_URL = "https://www.imdb.com/find?q=";
 const movieTitles: string[] = [
@@ -87,7 +88,7 @@ async function scrapeImdb(movieTitle: string) {
     const stars = $$(".sc-1f50b7c-3 div ul li:nth-of-type(3) div ul a")
       .get()
       .map((x) => $$(x).text());
-    const topStars: Array<object> = [];
+    const topStars: TopStarsType[] = [];
 
     $$(".sc-bfec09a1-5").each((i, element) => {
       // Extract title and rating
@@ -100,15 +101,14 @@ async function scrapeImdb(movieTitle: string) {
       });
     });
 
-    const photos: Array<string | undefined> = [];
+    const photos: string[] = [];
 
     $$('section [data-testid="Photos"] section div a').each((i, element) => {
       const imgUrl = $$(element).find("div img").attr("src");
-
-      photos.push(imgUrl);
+      if (imgUrl) photos.push(imgUrl);
     });
 
-    const movieObj = {
+    const movieObj: MovieDataType = {
       id,
       title,
       scores: {
@@ -268,45 +268,32 @@ const writeJsonFile = async (movieData: Array<Record<any, any>>) => {
 
 const main = async () => {
   try {
-    const arr: Array<Record<any, any>> = [
-      {
-        id: 1,
-        title: "Casper",
-        scores: {
-          imdb: { rating: 3, reviews: 34 },
-        },
-      },
-      {
-        id: 2,
-        title: "Stand by Me",
-        scores: {
-          imdb: { rating: 2, reviews: 32 },
-        },
-      },
-    ];
+    const arr: MovieDataType[] = [];
 
     await Promise.all(
       movieTitles.map(async (title) => {
-        const tomato = await scrapeRottenTomatoes(title);
-        console.log(tomato);
-        if (tomato) {
+        const imdbData = await scrapeImdb(title);
+        if (imdbData) arr.push(imdbData);
+
+        const rottenTomatoData = await scrapeRottenTomatoes(title);
+        if (rottenTomatoData) {
           arr.map((movie) => {
-            if (movie.title === tomato.movieTitle) {
+            if (movie.title === rottenTomatoData.movieTitle) {
               movie.scores.rottenTomato = {
-                rating: tomato.rating,
-                review: tomato.reviews,
+                rating: rottenTomatoData.rating,
+                reviews: rottenTomatoData.reviews,
               };
             }
           });
         }
 
-        const metaCritic = await scrapeMetacritic(title);
-        if (metaCritic) {
+        const metaCriticData = await scrapeMetacritic(title);
+        if (metaCriticData) {
           arr.map((movie) => {
-            if (movie.title === metaCritic.movieTitle) {
+            if (movie.title === metaCriticData.movieTitle) {
               movie.scores.metaCritic = {
-                rating: metaCritic.rating,
-                review: metaCritic.reviews,
+                rating: metaCriticData.rating,
+                reviews: metaCriticData.reviews,
               };
             }
           });

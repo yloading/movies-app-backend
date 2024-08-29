@@ -8,10 +8,13 @@ import express, { Express, Request, response, Response } from "express";
 import { readFile } from "fs";
 import { join } from "path";
 import { responseTemplate } from "./utils/responseTemplate.js";
+import cors from "cors";
 
 const PORT = 8001;
 
 const app: Express = express();
+
+app.use(cors());
 
 /**
  * @endpoint /api/movies
@@ -22,7 +25,7 @@ const app: Express = express();
  *
  * @returns {JSON} JSON object with movies data, or an error if the file cannot be read or parsed.
  */
-app.get("/api/imdb", (req: Request, res: Response) => {
+app.get("/api/movies", (req: Request, res: Response) => {
   // Reads the movie data JSON file asynchronously.
   readFile(join("./src/data", "imdb.json"), (err, fileData) => {
     if (err) {

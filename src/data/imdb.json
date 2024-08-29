@@ -1,38 +1,603 @@
 [
   {
-    "id": 1,
-    "title": "Casper",
-    "scores": {
-      "imdb": {
-        "rating": 3,
-        "reviews": 34
-      },
-      "rottenTomato": {
-        "rating": "50%",
-        "review": "250,000+ Ratings"
-      },
-      "metaCritic": {
-        "rating": "7.0",
-        "review": "Based on 53 User Ratings"
-      }
-    }
-  },
-  {
-    "id": 2,
+    "id": "tt0092005",
     "title": "Stand by Me",
     "scores": {
       "imdb": {
-        "rating": 2,
-        "reviews": 32
+        "rating": "8.1",
+        "reviews": "448K"
       },
       "rottenTomato": {
         "rating": "94%",
-        "review": "250,000+ Ratings"
+        "reviews": "250,000+ Ratings"
       },
       "metaCritic": {
         "rating": "8.4",
-        "review": "Based on 143 User Ratings"
+        "reviews": "Based on 143 User Ratings"
       }
-    }
+    },
+    "contentRating": "PG-13",
+    "releaseDate": "July 23, 1987 (Philippines)United StatesFacebookEnglishEagle Mountain Ln, Burney, California, USAColumbia PicturesAct IIIAct III Communications",
+    "releaseYear": "1986",
+    "duration": "1h 29m",
+    "categories": [
+      "Coming-of-Age",
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "summary": "A writer recounts a childhood journey with his friends to find the body of a missing boy.",
+    "director": "Rob Reiner",
+    "writers": [
+      "Stephen King",
+      "Raynold Gideon",
+      "Bruce A. Evans"
+    ],
+    "stars": [
+      "Wil Wheaton",
+      "River Phoenix",
+      "Corey Feldman"
+    ],
+    "topStars": [
+      {
+        "actorName": "Wil Wheaton",
+        "characterName": "Gordie Lachance"
+      },
+      {
+        "actorName": "River Phoenix",
+        "characterName": "Chris Chambers"
+      },
+      {
+        "actorName": "Corey Feldman",
+        "characterName": "Teddy Duchamp"
+      },
+      {
+        "actorName": "Jerry O'Connell",
+        "characterName": "Vern Tessio"
+      },
+      {
+        "actorName": "Kiefer Sutherland",
+        "characterName": "Ace Merrill"
+      },
+      {
+        "actorName": "Casey Siemaszko",
+        "characterName": "Billy Tessio"
+      },
+      {
+        "actorName": "Gary Riley",
+        "characterName": "Charlie Hogan"
+      },
+      {
+        "actorName": "Bradley Gregg",
+        "characterName": "Eyeball Chambers"
+      },
+      {
+        "actorName": "Jason Oliver Lipsett",
+        "characterName": "Vince Desjardins"
+      },
+      {
+        "actorName": "Marshall Bell",
+        "characterName": "Mr. Lachance"
+      },
+      {
+        "actorName": "Frances Lee McCain",
+        "characterName": "Mrs. Lachance"
+      },
+      {
+        "actorName": "Bruce Kirby",
+        "characterName": "Mr. Quidacioluo"
+      },
+      {
+        "actorName": "William Bronder",
+        "characterName": "Milo Pressman"
+      },
+      {
+        "actorName": "Scott Beach",
+        "characterName": "Mayor Grundy"
+      },
+      {
+        "actorName": "Richard Dreyfuss",
+        "characterName": "The Writer"
+      },
+      {
+        "actorName": "John Cusack",
+        "characterName": "Denny Lachance"
+      },
+      {
+        "actorName": "Madeleine Swift",
+        "characterName": "Waitress"
+      },
+      {
+        "actorName": "Popeye",
+        "characterName": "Chopper"
+      }
+    ],
+    "photos": []
+  },
+  {
+    "id": "tt0109686",
+    "title": "Dumb and Dumber",
+    "scores": {
+      "imdb": {
+        "rating": "7.3",
+        "reviews": "418K"
+      },
+      "rottenTomato": {
+        "rating": "84%",
+        "reviews": "250,000+ Ratings"
+      },
+      "metaCritic": {
+        "rating": "5.8",
+        "reviews": "Based on 430 User Ratings"
+      }
+    },
+    "contentRating": "PG-13",
+    "releaseDate": "March 15, 1995 (Philippines)United StatesOfficial FacebookEnglishSwedishGermanStanley Hotel - 333 Wonderview Avenue, Estes Park, Colorado, USANew Line CinemaMotion Picture Corporation of America (MPCA)",
+    "releaseYear": "1994",
+    "duration": "1h 47m",
+    "categories": [
+      "Buddy Comedy",
+      "Farce",
+      "Road Trip",
+      "Slapstick",
+      "Comedy"
+    ],
+    "summary": "After a woman leaves a briefcase at the airport terminal, a dumb limo driver and his dumber friend set out on a hilarious cross-country road trip to Aspen to return it.",
+    "director": "Peter Farrelly",
+    "writers": [
+      "Peter Farrelly",
+      "Bennett Yellin",
+      "Bobby Farrelly"
+    ],
+    "stars": [
+      "Jim Carrey",
+      "Jeff Daniels",
+      "Lauren Holly"
+    ],
+    "topStars": [
+      {
+        "actorName": "Jim Carrey",
+        "characterName": "Lloyd"
+      },
+      {
+        "actorName": "Jeff Daniels",
+        "characterName": "Harry"
+      },
+      {
+        "actorName": "Lauren Holly",
+        "characterName": "Mary"
+      },
+      {
+        "actorName": "Mike Starr",
+        "characterName": "Joe Mentalino"
+      },
+      {
+        "actorName": "Karen Duffy",
+        "characterName": "J.P. Shay"
+      },
+      {
+        "actorName": "Charles Rocket",
+        "characterName": "Nicholas Andre"
+      },
+      {
+        "actorName": "Victoria Rowell",
+        "characterName": "FBI Agent Beth Jordan"
+      },
+      {
+        "actorName": "Joe Baker",
+        "characterName": "Barnard"
+      },
+      {
+        "actorName": "Hank Brandt",
+        "characterName": "Karl Swanson"
+      },
+      {
+        "actorName": "Teri Garr",
+        "characterName": "Helen Swanson"
+      },
+      {
+        "actorName": "Brady Bluhm",
+        "characterName": "Billy"
+      },
+      {
+        "actorName": "Cam Neely",
+        "characterName": "Sea Bass"
+      },
+      {
+        "actorName": "Felton Perry",
+        "characterName": "Detective Dale"
+      },
+      {
+        "actorName": "Brad Lockerman",
+        "characterName": "Bobby"
+      },
+      {
+        "actorName": "Rob Moran",
+        "characterName": "Bartender"
+      },
+      {
+        "actorName": "Kathryn Frick",
+        "characterName": "Cashier"
+      },
+      {
+        "actorName": "Zen Gesner",
+        "characterName": "Dale's Man #1"
+      },
+      {
+        "actorName": "Lawrence Kopp",
+        "characterName": "Dale's Man #2"
+      }
+    ],
+    "photos": []
+  },
+  {
+    "id": "tt0112642",
+    "title": "Casper",
+    "scores": {
+      "imdb": {
+        "rating": "6.2",
+        "reviews": "148K"
+      },
+      "rottenTomato": {
+        "rating": "50%",
+        "reviews": "250,000+ Ratings"
+      },
+      "metaCritic": {
+        "rating": "7.0",
+        "reviews": "Based on 53 User Ratings"
+      }
+    },
+    "contentRating": "G",
+    "releaseDate": "July 5, 1995 (Philippines)United StatesOfficial FacebookEnglishRockport, Maine, USAUniversal PicturesAmblin EntertainmentThe Harvey Entertainment Company",
+    "releaseYear": "1995",
+    "duration": "1h 40m",
+    "categories": [
+      "Supernatural Fantasy",
+      "Teen Fantasy",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "summary": "An afterlife therapist and his daughter meet a friendly young ghost when they move into a crumbling mansion in order to rid the premises of wicked spirits.",
+    "director": "Brad Silberling",
+    "writers": [
+      "Joseph Oriolo",
+      "Sherri Stoner",
+      "Deanna Oliver"
+    ],
+    "stars": [
+      "Bill Pullman",
+      "Christina Ricci",
+      "Cathy Moriarty"
+    ],
+    "topStars": [
+      {
+        "actorName": "Bill Pullman",
+        "characterName": "Dr. Harvey"
+      },
+      {
+        "actorName": "Christina Ricci",
+        "characterName": "Kat"
+      },
+      {
+        "actorName": "Cathy Moriarty",
+        "characterName": "Carrigan"
+      },
+      {
+        "actorName": "Eric Idle",
+        "characterName": "Dibs"
+      },
+      {
+        "actorName": "Chauncey Leopardi",
+        "characterName": "Nicky"
+      },
+      {
+        "actorName": "Spencer Vrooman",
+        "characterName": "Andreas"
+      },
+      {
+        "actorName": "Malachi Pearson",
+        "characterName": "Casper"
+      },
+      {
+        "actorName": "Ben Stein",
+        "characterName": "Rugg"
+      },
+      {
+        "actorName": "Don Novello",
+        "characterName": "Father Guido Sarducci"
+      },
+      {
+        "actorName": "Fred Rogers",
+        "characterName": "Mr. Rogers"
+      },
+      {
+        "actorName": "Terry Murphy",
+        "characterName": "Terry Murphy ('Hard Copy')"
+      },
+      {
+        "actorName": "Ernestine Mercer",
+        "characterName": "Woman Being Interviewed"
+      },
+      {
+        "actorName": "Doug Bruckner",
+        "characterName": "Reporter"
+      },
+      {
+        "actorName": "Joe Nipote",
+        "characterName": "Stretch"
+      },
+      {
+        "actorName": "Joe Alaskey",
+        "characterName": "Stinkie"
+      },
+      {
+        "actorName": "Brad Garrett",
+        "characterName": "Fatso"
+      },
+      {
+        "actorName": "John Kassir",
+        "characterName": "The Crypt Keeper"
+      },
+      {
+        "actorName": "Garette Ratliff Henson",
+        "characterName": "Vic"
+      }
+    ],
+    "photos": [
+      "https://m.media-amazon.com/images/M/MV5BMjIwMTI0NTc0M15BMl5BanBnXkFtZTcwNTY5NjgwMw@@._V1_QL75_UX337_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTMwOTMxMTMxM15BMl5BanBnXkFtZTcwNjg5NjgwMw@@._V1_QL75_UX195_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTc1MTI0NTE1M15BMl5BanBnXkFtZTcwMDAwNzgwMw@@._V1_QL75_UX135_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTk4MTMwMjQxOF5BMl5BanBnXkFtZTcwMDEwNzgwMw@@._V1_QL75_UX424_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjM4NjM4MjU3MF5BMl5BanBnXkFtZTcwOTQwNzgwMw@@._V1_QL75_UX324_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTgwNzg1Mzc1M15BMl5BanBnXkFtZTcwODI5NjgwMw@@._V1_QL75_UX224_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNzI3MjQ4NTA2NV5BMl5BanBnXkFtZTcwMzU5NjgwMw@@._V1_QL75_UX414_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTgzNTI3MDU2MF5BMl5BanBnXkFtZTcwNTk4NjgwMw@@._V1_QL75_UX245_.jpg"
+    ]
+  },
+  {
+    "id": "tt0114709",
+    "title": "Toy Story",
+    "scores": {
+      "imdb": {
+        "rating": "8.3",
+        "reviews": "1.1M"
+      },
+      "rottenTomato": {
+        "rating": "94%",
+        "reviews": "50,000+ Verified Ratings"
+      },
+      "metaCritic": {
+        "rating": "8.8",
+        "reviews": "Based on 1,672 User Ratings"
+      }
+    },
+    "contentRating": "G",
+    "releaseDate": "May 1, 1996 (Philippines)United StatesOfficial FacebookOfficial siteEnglishPixar Animation Studios - 1200 Park Avenue, Emeryville, California, USAWalt Disney PicturesPixar Animation Studios",
+    "releaseYear": "1995",
+    "duration": "1h 21m",
+    "categories": [
+      "Buddy Comedy",
+      "Computer Animation",
+      "Supernatural Fantasy",
+      "Urban Adventure",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "summary": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
+    "director": "John Lasseter",
+    "writers": [
+      "John Lasseter",
+      "Pete Docter",
+      "Andrew Stanton"
+    ],
+    "stars": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles"
+    ],
+    "topStars": [
+      {
+        "actorName": "Tom Hanks",
+        "characterName": "Woody"
+      },
+      {
+        "actorName": "Tim Allen",
+        "characterName": "Buzz Lightyear"
+      },
+      {
+        "actorName": "Don Rickles",
+        "characterName": "Mr. Potato Head"
+      },
+      {
+        "actorName": "Jim Varney",
+        "characterName": "Slinky Dog"
+      },
+      {
+        "actorName": "Wallace Shawn",
+        "characterName": "Rex"
+      },
+      {
+        "actorName": "John Ratzenberger",
+        "characterName": "Hamm"
+      },
+      {
+        "actorName": "Annie Potts",
+        "characterName": "Bo Peep"
+      },
+      {
+        "actorName": "John Morris",
+        "characterName": "Andy"
+      },
+      {
+        "actorName": "Erik von Detten",
+        "characterName": "Sid"
+      },
+      {
+        "actorName": "Laurie Metcalf",
+        "characterName": "Mrs. Davis"
+      },
+      {
+        "actorName": "R. Lee Ermey",
+        "characterName": "Sergeant"
+      },
+      {
+        "actorName": "Sarah Rayne",
+        "characterName": "Hannah"
+      },
+      {
+        "actorName": "Penn Jillette",
+        "characterName": "TV Announcer"
+      },
+      {
+        "actorName": "Jack Angel",
+        "characterName": "Shark"
+      },
+      {
+        "actorName": "Spencer Aste",
+        "characterName": "Wounded Soldier"
+      },
+      {
+        "actorName": "Greg Berg",
+        "characterName": "Local Announcer"
+      },
+      {
+        "actorName": "Lisa Bradley",
+        "characterName": "Kid"
+      },
+      {
+        "actorName": "Kendall Cunningham",
+        "characterName": "Kid"
+      }
+    ],
+    "photos": [
+      "https://m.media-amazon.com/images/M/MV5BZmU5OTAxZTUtYWY4NC00ODJmLWE0NzItOGMzOTNhYjY0NWZlXkEyXkFqcGc@._V1_QL75_UX154_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNjFjMTdkOGQtZDJjZS00YzIzLWE1NTItZDdhYzY1NzE1Njg2XkEyXkFqcGdeQXVyMjg0NjA1Mzk@._V1_QL75_UX388_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTUyNTQwMTUwMl5BMl5BanBnXkFtZTgwOTI2OTYwMzI@._V1_QL75_UX388_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTQ5NTc5NTYyM15BMl5BanBnXkFtZTcwMzk0MjIyNw@@._V1_QL75_UX144_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNjY3Njk2MDgwM15BMl5BanBnXkFtZTcwNDk0MjIyNw@@._V1_QL75_UX365_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTM5MTE1MzkwN15BMl5BanBnXkFtZTcwNTk0MjIyNw@@._V1_QL75_UX365_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNjk1NjgzMzc1MF5BMl5BanBnXkFtZTcwNzk0MjIyNw@@._V1_QL75_UX207_.jpg"
+    ]
+  },
+  {
+    "id": "tt0101775",
+    "title": "My Special Friend",
+    "scores": {
+      "imdb": {
+        "rating": "5.9",
+        "reviews": "32K"
+      }
+    },
+    "contentRating": "G",
+    "releaseDate": "May 24, 1991 (United States)United KingdomUnited StatesEnglishPaisley Park Studios - 7801 Audubon Road, Chanhassen, Minnesota, USAPolyGram Filmed EntertainmentWorking Title Films",
+    "releaseYear": "1991",
+    "duration": "1h 43m",
+    "categories": [
+      "Dark Comedy",
+      "Slapstick",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "summary": "A young woman finds her already unstable life rocked by the presence of a rambunctious imaginary friend from childhood.",
+    "director": "Ate de Jong",
+    "writers": [
+      "Elizabeth Livingston",
+      "Carlos Davis",
+      "Anthony Fingleton"
+    ],
+    "stars": [
+      "Phoebe Cates",
+      "Rik Mayall",
+      "Marsha Mason"
+    ],
+    "topStars": [
+      {
+        "actorName": "Phoebe Cates",
+        "characterName": "Elizabeth"
+      },
+      {
+        "actorName": "Rik Mayall",
+        "characterName": "Drop Dead Fred"
+      },
+      {
+        "actorName": "Marsha Mason",
+        "characterName": "Polly"
+      },
+      {
+        "actorName": "Tim Matheson",
+        "characterName": "Charles"
+      },
+      {
+        "actorName": "Carrie Fisher",
+        "characterName": "Janie"
+      },
+      {
+        "actorName": "Keith Charles",
+        "characterName": "Murray"
+      },
+      {
+        "actorName": "Ashley Peldon",
+        "characterName": "Young Elizabeth"
+      },
+      {
+        "actorName": "Daniel Gerroll",
+        "characterName": "Nigel"
+      },
+      {
+        "actorName": "Ron Eldard",
+        "characterName": "Mickey Bunce"
+      },
+      {
+        "actorName": "Eleanor Mondale",
+        "characterName": "Attractive Customer"
+      },
+      {
+        "actorName": "Bob Reid",
+        "characterName": "Judge Dubben"
+      },
+      {
+        "actorName": "Peter Thoemke",
+        "characterName": "Arsonist"
+      },
+      {
+        "actorName": "Sjoukje De Jong Douma",
+        "characterName": "Grandma Bunce"
+      },
+      {
+        "actorName": "Paul Holmes",
+        "characterName": "Man in Speedboat"
+      },
+      {
+        "actorName": "Steve Cochran",
+        "characterName": "Waiter #1"
+      },
+      {
+        "actorName": "Robert Meyzen",
+        "characterName": "Waiter #2"
+      },
+      {
+        "actorName": "Daniel Buchen",
+        "characterName": "Doctor Ryland"
+      },
+      {
+        "actorName": "Marie Mathay",
+        "characterName": "Concerned Mom"
+      }
+    ],
+    "photos": [
+      "https://m.media-amazon.com/images/M/MV5BOTEzNzI0MTI5MV5BMl5BanBnXkFtZTgwNjM4ODIxODE@._V1_QL75_UX164_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjAyMjMxOTYxMF5BMl5BanBnXkFtZTYwNzA4NzM5._V1_QL75_UX125_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTM0NDYxMTM5OV5BMl5BanBnXkFtZTcwNzk3MzAwMQ@@._V1_QL75_UX155_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTI1NTg3MTAwNl5BMl5BanBnXkFtZTcwMjc2NzAyMQ@@._V1_QL75_UX121_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTI0MDQ5NTQzNF5BMl5BanBnXkFtZTcwODc3MjYyMQ@@._V1_QL75_UX154_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BZDcyNGUwOGEtMDQ5Mi00MzNjLThhMTctYTViYzZkYWMwZTVhXkEyXkFqcGc@._V1_QL75_UX294_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BZTE5Y2UzNzctMDgyYi00YmYyLWI2NDMtYTg4ZjlkOThhNzdhXkEyXkFqcGc@._V1_QL75_UX416_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTY2NDBiOTMtZjE3ZC00YjJiLTk1OGQtMWM4M2Y4NTU2YzBlXkEyXkFqcGc@._V1_QL75_UX231_.jpg"
+    ]
   }
 ]
