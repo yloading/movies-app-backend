@@ -11,7 +11,7 @@
     "start": "node dist/app.js",
     "predev": "npm run build",
     "dev": "npx tsc -w & nodemon dist/app.js",
-    "scrape": "tsc && node dist/scripts/imdb.js "
+    "scrape": "tsc && node dist/scripts/scrapeScript.js "
   },
   "keywords": [],
   "author": "",
