@@ -27,7 +27,7 @@ app.use(cors());
  */
 app.get("/api/movies", (req: Request, res: Response) => {
   // Reads the movie data JSON file asynchronously.
-  readFile(join("./src/data", "imdb.json"), (err, fileData) => {
+  readFile(join("./src/data", "movies.json"), (err, fileData) => {
     if (err) {
       console.log(err);
       res.status(500).json({ error: "Failed to read the file" });

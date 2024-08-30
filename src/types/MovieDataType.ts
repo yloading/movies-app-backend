@@ -2,9 +2,9 @@ export type MovieDataType = {
   id: string | null;
   title: string;
   scores: {
-    imdb: { rating: string | number; reviews: string };
-    rottenTomato?: { rating: string | number; reviews: string };
-    metaCritic?: { rating: string | number; reviews: string };
+    imdb: { rating: string | number; reviews: string; link: string };
+    rottenTomato?: { rating: string | number; reviews: string; link: string };
+    metaCritic?: { rating: string | number; reviews: string; link: string };
   };
   contentRating: string;
   releaseDate: string;

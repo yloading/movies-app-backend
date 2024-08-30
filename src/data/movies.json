@@ -1,134 +1,22 @@
 [
   {
-    "id": "tt0092005",
-    "title": "Stand by Me",
-    "scores": {
-      "imdb": {
-        "rating": "8.1",
-        "reviews": "448K"
-      },
-      "rottenTomato": {
-        "rating": "94%",
-        "reviews": "250,000+ Ratings"
-      },
-      "metaCritic": {
-        "rating": "8.4",
-        "reviews": "Based on 143 User Ratings"
-      }
-    },
-    "contentRating": "PG-13",
-    "releaseDate": "July 23, 1987 (Philippines)United StatesFacebookEnglishEagle Mountain Ln, Burney, California, USAColumbia PicturesAct IIIAct III Communications",
-    "releaseYear": "1986",
-    "duration": "1h 29m",
-    "categories": [
-      "Coming-of-Age",
-      "Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "summary": "A writer recounts a childhood journey with his friends to find the body of a missing boy.",
-    "director": "Rob Reiner",
-    "writers": [
-      "Stephen King",
-      "Raynold Gideon",
-      "Bruce A. Evans"
-    ],
-    "stars": [
-      "Wil Wheaton",
-      "River Phoenix",
-      "Corey Feldman"
-    ],
-    "topStars": [
-      {
-        "actorName": "Wil Wheaton",
-        "characterName": "Gordie Lachance"
-      },
-      {
-        "actorName": "River Phoenix",
-        "characterName": "Chris Chambers"
-      },
-      {
-        "actorName": "Corey Feldman",
-        "characterName": "Teddy Duchamp"
-      },
-      {
-        "actorName": "Jerry O'Connell",
-        "characterName": "Vern Tessio"
-      },
-      {
-        "actorName": "Kiefer Sutherland",
-        "characterName": "Ace Merrill"
-      },
-      {
-        "actorName": "Casey Siemaszko",
-        "characterName": "Billy Tessio"
-      },
-      {
-        "actorName": "Gary Riley",
-        "characterName": "Charlie Hogan"
-      },
-      {
-        "actorName": "Bradley Gregg",
-        "characterName": "Eyeball Chambers"
-      },
-      {
-        "actorName": "Jason Oliver Lipsett",
-        "characterName": "Vince Desjardins"
-      },
-      {
-        "actorName": "Marshall Bell",
-        "characterName": "Mr. Lachance"
-      },
-      {
-        "actorName": "Frances Lee McCain",
-        "characterName": "Mrs. Lachance"
-      },
-      {
-        "actorName": "Bruce Kirby",
-        "characterName": "Mr. Quidacioluo"
-      },
-      {
-        "actorName": "William Bronder",
-        "characterName": "Milo Pressman"
-      },
-      {
-        "actorName": "Scott Beach",
-        "characterName": "Mayor Grundy"
-      },
-      {
-        "actorName": "Richard Dreyfuss",
-        "characterName": "The Writer"
-      },
-      {
-        "actorName": "John Cusack",
-        "characterName": "Denny Lachance"
-      },
-      {
-        "actorName": "Madeleine Swift",
-        "characterName": "Waitress"
-      },
-      {
-        "actorName": "Popeye",
-        "characterName": "Chopper"
-      }
-    ],
-    "photos": []
-  },
-  {
     "id": "tt0109686",
     "title": "Dumb and Dumber",
     "scores": {
       "imdb": {
         "rating": "7.3",
-        "reviews": "418K"
+        "reviews": "418K",
+        "link": "https://www.imdb.com/title/tt0109686/?ref_=fn_al_tt_1"
       },
       "rottenTomato": {
-        "rating": "84%",
-        "reviews": "250,000+ Ratings"
+        "rating": "68%",
+        "reviews": "53 Reviews",
+        "link": "https://www.rottentomatoes.com/m/dumb_and_dumber"
       },
       "metaCritic": {
-        "rating": "5.8",
-        "reviews": "Based on 430 User Ratings"
+        "rating": "41",
+        "reviews": "Based on 14 Critic Reviews",
+        "link": "https://www.metacritic.com/movie/dumb-and-dumber/"
       }
     },
     "contentRating": "PG-13",
@@ -228,131 +116,14 @@
         "characterName": "Dale's Man #2"
       }
     ],
-    "photos": []
-  },
-  {
-    "id": "tt0112642",
-    "title": "Casper",
-    "scores": {
-      "imdb": {
-        "rating": "6.2",
-        "reviews": "148K"
-      },
-      "rottenTomato": {
-        "rating": "50%",
-        "reviews": "250,000+ Ratings"
-      },
-      "metaCritic": {
-        "rating": "7.0",
-        "reviews": "Based on 53 User Ratings"
-      }
-    },
-    "contentRating": "G",
-    "releaseDate": "July 5, 1995 (Philippines)United StatesOfficial FacebookEnglishRockport, Maine, USAUniversal PicturesAmblin EntertainmentThe Harvey Entertainment Company",
-    "releaseYear": "1995",
-    "duration": "1h 40m",
-    "categories": [
-      "Supernatural Fantasy",
-      "Teen Fantasy",
-      "Comedy",
-      "Family",
-      "Fantasy"
-    ],
-    "summary": "An afterlife therapist and his daughter meet a friendly young ghost when they move into a crumbling mansion in order to rid the premises of wicked spirits.",
-    "director": "Brad Silberling",
-    "writers": [
-      "Joseph Oriolo",
-      "Sherri Stoner",
-      "Deanna Oliver"
-    ],
-    "stars": [
-      "Bill Pullman",
-      "Christina Ricci",
-      "Cathy Moriarty"
-    ],
-    "topStars": [
-      {
-        "actorName": "Bill Pullman",
-        "characterName": "Dr. Harvey"
-      },
-      {
-        "actorName": "Christina Ricci",
-        "characterName": "Kat"
-      },
-      {
-        "actorName": "Cathy Moriarty",
-        "characterName": "Carrigan"
-      },
-      {
-        "actorName": "Eric Idle",
-        "characterName": "Dibs"
-      },
-      {
-        "actorName": "Chauncey Leopardi",
-        "characterName": "Nicky"
-      },
-      {
-        "actorName": "Spencer Vrooman",
-        "characterName": "Andreas"
-      },
-      {
-        "actorName": "Malachi Pearson",
-        "characterName": "Casper"
-      },
-      {
-        "actorName": "Ben Stein",
-        "characterName": "Rugg"
-      },
-      {
-        "actorName": "Don Novello",
-        "characterName": "Father Guido Sarducci"
-      },
-      {
-        "actorName": "Fred Rogers",
-        "characterName": "Mr. Rogers"
-      },
-      {
-        "actorName": "Terry Murphy",
-        "characterName": "Terry Murphy ('Hard Copy')"
-      },
-      {
-        "actorName": "Ernestine Mercer",
-        "characterName": "Woman Being Interviewed"
-      },
-      {
-        "actorName": "Doug Bruckner",
-        "characterName": "Reporter"
-      },
-      {
-        "actorName": "Joe Nipote",
-        "characterName": "Stretch"
-      },
-      {
-        "actorName": "Joe Alaskey",
-        "characterName": "Stinkie"
-      },
-      {
-        "actorName": "Brad Garrett",
-        "characterName": "Fatso"
-      },
-      {
-        "actorName": "John Kassir",
-        "characterName": "The Crypt Keeper"
-      },
-      {
-        "actorName": "Garette Ratliff Henson",
-        "characterName": "Vic"
-      }
-    ],
     "photos": [
-      "https://m.media-amazon.com/images/M/MV5BMjIwMTI0NTc0M15BMl5BanBnXkFtZTcwNTY5NjgwMw@@._V1_QL75_UX337_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BMTMwOTMxMTMxM15BMl5BanBnXkFtZTcwNjg5NjgwMw@@._V1_QL75_UX195_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BMTc1MTI0NTE1M15BMl5BanBnXkFtZTcwMDAwNzgwMw@@._V1_QL75_UX135_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BMTk4MTMwMjQxOF5BMl5BanBnXkFtZTcwMDEwNzgwMw@@._V1_QL75_UX424_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BMjM4NjM4MjU3MF5BMl5BanBnXkFtZTcwOTQwNzgwMw@@._V1_QL75_UX324_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BMTgwNzg1Mzc1M15BMl5BanBnXkFtZTcwODI5NjgwMw@@._V1_QL75_UX224_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BNzI3MjQ4NTA2NV5BMl5BanBnXkFtZTcwMzU5NjgwMw@@._V1_QL75_UX414_.jpg",
-      "https://m.media-amazon.com/images/M/MV5BMTgzNTI3MDU2MF5BMl5BanBnXkFtZTcwNTk4NjgwMw@@._V1_QL75_UX245_.jpg"
+      "https://m.media-amazon.com/images/M/MV5BNDQ4MjUyNjc3Ml5BMl5BanBnXkFtZTgwNjgzOTIwMjE@._V1_QL75_UX327_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNDEyMjMwODc0MF5BMl5BanBnXkFtZTgwNzgzOTIwMjE@._V1_QL75_UX172_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTg0OTgwNzQwOV5BMl5BanBnXkFtZTgwODgzOTIwMjE@._V1_QL75_UX328_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTY5MTQ0ODEzNV5BMl5BanBnXkFtZTgwOTgzOTIwMjE@._V1_QL75_UX323_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMzY2NjI2NTM2Nl5BMl5BanBnXkFtZTcwMTMzNjgwMw@@._V1_QL75_UX330_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTc4NzIyMDI0OV5BMl5BanBnXkFtZTcwNjUzNjgwMw@@._V1_QL75_UX193_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTM5MTYxMDI0OF5BMl5BanBnXkFtZTcwNjczNjgwMw@@._V1_QL75_UX110_.jpg"
     ]
   },
   {
@@ -361,15 +132,18 @@
     "scores": {
       "imdb": {
         "rating": "8.3",
-        "reviews": "1.1M"
+        "reviews": "1.1M",
+        "link": "https://www.imdb.com/title/tt0114709/?ref_=fn_al_tt_1"
       },
       "rottenTomato": {
-        "rating": "94%",
-        "reviews": "50,000+ Verified Ratings"
+        "rating": "97%",
+        "reviews": "459 Reviews",
+        "link": "https://www.rottentomatoes.com/m/toy_story_4"
       },
       "metaCritic": {
-        "rating": "8.8",
-        "reviews": "Based on 1,672 User Ratings"
+        "rating": "96",
+        "reviews": "Based on 26 Critic Reviews",
+        "link": "https://www.metacritic.com/movie/toy-story/"
       }
     },
     "contentRating": "G",
@@ -484,12 +258,142 @@
     ]
   },
   {
+    "id": "tt0112642",
+    "title": "Casper",
+    "scores": {
+      "imdb": {
+        "rating": "6.2",
+        "reviews": "148K",
+        "link": "https://www.imdb.com/title/tt0112642/?ref_=fn_al_tt_1"
+      },
+      "rottenTomato": {
+        "rating": "52%",
+        "reviews": "42 Reviews",
+        "link": "https://www.rottentomatoes.com/m/casper"
+      },
+      "metaCritic": {
+        "rating": "49",
+        "reviews": "Based on 22 Critic Reviews",
+        "link": "https://www.metacritic.com/movie/casper/"
+      }
+    },
+    "contentRating": "G",
+    "releaseDate": "July 5, 1995 (Philippines)United StatesOfficial FacebookEnglishRockport, Maine, USAUniversal PicturesAmblin EntertainmentThe Harvey Entertainment Company",
+    "releaseYear": "1995",
+    "duration": "1h 40m",
+    "categories": [
+      "Supernatural Fantasy",
+      "Teen Fantasy",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "summary": "An afterlife therapist and his daughter meet a friendly young ghost when they move into a crumbling mansion in order to rid the premises of wicked spirits.",
+    "director": "Brad Silberling",
+    "writers": [
+      "Joseph Oriolo",
+      "Sherri Stoner",
+      "Deanna Oliver"
+    ],
+    "stars": [
+      "Bill Pullman",
+      "Christina Ricci",
+      "Cathy Moriarty"
+    ],
+    "topStars": [
+      {
+        "actorName": "Bill Pullman",
+        "characterName": "Dr. Harvey"
+      },
+      {
+        "actorName": "Christina Ricci",
+        "characterName": "Kat"
+      },
+      {
+        "actorName": "Cathy Moriarty",
+        "characterName": "Carrigan"
+      },
+      {
+        "actorName": "Eric Idle",
+        "characterName": "Dibs"
+      },
+      {
+        "actorName": "Chauncey Leopardi",
+        "characterName": "Nicky"
+      },
+      {
+        "actorName": "Spencer Vrooman",
+        "characterName": "Andreas"
+      },
+      {
+        "actorName": "Malachi Pearson",
+        "characterName": "Casper"
+      },
+      {
+        "actorName": "Ben Stein",
+        "characterName": "Rugg"
+      },
+      {
+        "actorName": "Don Novello",
+        "characterName": "Father Guido Sarducci"
+      },
+      {
+        "actorName": "Fred Rogers",
+        "characterName": "Mr. Rogers"
+      },
+      {
+        "actorName": "Terry Murphy",
+        "characterName": "Terry Murphy ('Hard Copy')"
+      },
+      {
+        "actorName": "Ernestine Mercer",
+        "characterName": "Woman Being Interviewed"
+      },
+      {
+        "actorName": "Doug Bruckner",
+        "characterName": "Reporter"
+      },
+      {
+        "actorName": "Joe Nipote",
+        "characterName": "Stretch"
+      },
+      {
+        "actorName": "Joe Alaskey",
+        "characterName": "Stinkie"
+      },
+      {
+        "actorName": "Brad Garrett",
+        "characterName": "Fatso"
+      },
+      {
+        "actorName": "John Kassir",
+        "characterName": "The Crypt Keeper"
+      },
+      {
+        "actorName": "Garette Ratliff Henson",
+        "characterName": "Vic"
+      }
+    ],
+    "photos": []
+  },
+  {
     "id": "tt0101775",
-    "title": "My Special Friend",
+    "title": "Drop Dead Fred",
     "scores": {
       "imdb": {
         "rating": "5.9",
-        "reviews": "32K"
+        "reviews": "32K",
+        "link": "https://www.imdb.com/title/tt0101775/?ref_=fn_al_tt_1"
+      },
+      "rottenTomato": {
+        "rating": "11%",
+        "reviews": "37 Reviews",
+        "link": "https://www.rottentomatoes.com/m/drop_dead_fred"
+      },
+      "metaCritic": {
+        "rating": "25",
+        "reviews": "Based on 19 Critic Reviews",
+        "link": "https://www.metacritic.com/movie/drop-dead-fred/"
       }
     },
     "contentRating": "G",
@@ -598,6 +502,132 @@
       "https://m.media-amazon.com/images/M/MV5BZDcyNGUwOGEtMDQ5Mi00MzNjLThhMTctYTViYzZkYWMwZTVhXkEyXkFqcGc@._V1_QL75_UX294_.jpg",
       "https://m.media-amazon.com/images/M/MV5BZTE5Y2UzNzctMDgyYi00YmYyLWI2NDMtYTg4ZjlkOThhNzdhXkEyXkFqcGc@._V1_QL75_UX416_.jpg",
       "https://m.media-amazon.com/images/M/MV5BMTY2NDBiOTMtZjE3ZC00YjJiLTk1OGQtMWM4M2Y4NTU2YzBlXkEyXkFqcGc@._V1_QL75_UX231_.jpg"
+    ]
+  },
+  {
+    "id": "tt0092005",
+    "title": "Stand by Me",
+    "scores": {
+      "imdb": {
+        "rating": "8.1",
+        "reviews": "449K",
+        "link": "https://www.imdb.com/title/tt0092005/?ref_=fn_al_tt_1"
+      },
+      "rottenTomato": {
+        "rating": "92%",
+        "reviews": "64 Reviews",
+        "link": "https://www.rottentomatoes.com/m/stand_by_me_1986"
+      },
+      "metaCritic": {
+        "rating": "75",
+        "reviews": "Based on 20 Critic Reviews",
+        "link": "https://www.metacritic.com/movie/stand-by-me/"
+      }
+    },
+    "contentRating": "PG-13",
+    "releaseDate": "July 23, 1987 (Philippines)United StatesFacebookEnglishEagle Mountain Ln, Burney, California, USAColumbia PicturesAct IIIAct III Communications",
+    "releaseYear": "1986",
+    "duration": "1h 29m",
+    "categories": [
+      "Coming-of-Age",
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "summary": "A writer recounts a childhood journey with his friends to find the body of a missing boy.",
+    "director": "Rob Reiner",
+    "writers": [
+      "Stephen King",
+      "Raynold Gideon",
+      "Bruce A. Evans"
+    ],
+    "stars": [
+      "Wil Wheaton",
+      "River Phoenix",
+      "Corey Feldman"
+    ],
+    "topStars": [
+      {
+        "actorName": "Wil Wheaton",
+        "characterName": "Gordie Lachance"
+      },
+      {
+        "actorName": "River Phoenix",
+        "characterName": "Chris Chambers"
+      },
+      {
+        "actorName": "Corey Feldman",
+        "characterName": "Teddy Duchamp"
+      },
+      {
+        "actorName": "Jerry O'Connell",
+        "characterName": "Vern Tessio"
+      },
+      {
+        "actorName": "Kiefer Sutherland",
+        "characterName": "Ace Merrill"
+      },
+      {
+        "actorName": "Casey Siemaszko",
+        "characterName": "Billy Tessio"
+      },
+      {
+        "actorName": "Gary Riley",
+        "characterName": "Charlie Hogan"
+      },
+      {
+        "actorName": "Bradley Gregg",
+        "characterName": "Eyeball Chambers"
+      },
+      {
+        "actorName": "Jason Oliver Lipsett",
+        "characterName": "Vince Desjardins"
+      },
+      {
+        "actorName": "Marshall Bell",
+        "characterName": "Mr. Lachance"
+      },
+      {
+        "actorName": "Frances Lee McCain",
+        "characterName": "Mrs. Lachance"
+      },
+      {
+        "actorName": "Bruce Kirby",
+        "characterName": "Mr. Quidacioluo"
+      },
+      {
+        "actorName": "William Bronder",
+        "characterName": "Milo Pressman"
+      },
+      {
+        "actorName": "Scott Beach",
+        "characterName": "Mayor Grundy"
+      },
+      {
+        "actorName": "Richard Dreyfuss",
+        "characterName": "The Writer"
+      },
+      {
+        "actorName": "John Cusack",
+        "characterName": "Denny Lachance"
+      },
+      {
+        "actorName": "Madeleine Swift",
+        "characterName": "Waitress"
+      },
+      {
+        "actorName": "Popeye",
+        "characterName": "Chopper"
+      }
+    ],
+    "photos": [
+      "https://m.media-amazon.com/images/M/MV5BNTU0ZmMyOGYtYmQyNS00YTA4LTgwYjQtYWQ0NDFhZGNhNmFkXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_QL75_UX164_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjM3ODc2OTcwM15BMl5BanBnXkFtZTgwOTg5OTUwNDI@._V1_QL75_UX327_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTYzODI4NzU1NV5BMl5BanBnXkFtZTgwMzE2ODIwMjE@._V1_QL75_UX326_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjIzNDc4NzUxN15BMl5BanBnXkFtZTgwOTA2ODIwMjE@._V1_QL75_UX324_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTU3NTA3NDgzMV5BMl5BanBnXkFtZTgwODA2ODIwMjE@._V1_QL75_UX327_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjE5Nzc4MjQ0OV5BMl5BanBnXkFtZTgwMDE2ODIwMjE@._V1_QL75_UX326_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTk0NTYwOTYzMl5BMl5BanBnXkFtZTgwMjA2ODIwMjE@._V1_QL75_UX185_.jpg"
     ]
   }
 ]

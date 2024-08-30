@@ -1,8 +1,7 @@
 import * as cheerio from "cheerio";
-import { writeFile } from "fs";
 import { MovieDataType, TopStarsType } from "../types/MovieDataType";
+import { getMovieId, writeJsonFile } from "../utils/scrapeUtils.js";
 
-const IMDB_URL = "https://www.imdb.com/find?q=";
 const movieTitles: string[] = [
   "Casper",
   "Dumb and Dumber",
@@ -21,9 +20,11 @@ async function fetchHTML(url: string): Promise<string> {
   return data;
 }
 
-// Function to scrape the movie page
+// Function to scrape the movies from imdb rating
 async function scrapeImdb(movieTitle: string) {
   try {
+    const IMDB_URL = "https://www.imdb.com/find?q=";
+
     // Fetch search results page
     const searchHtml = await fetchHTML(IMDB_URL + movieTitle);
     const $ = cheerio.load(searchHtml);
@@ -49,12 +50,6 @@ async function scrapeImdb(movieTitle: string) {
     const id = getMovieId(movieLink);
 
     // Scrape the necessary details
-    const title = $$(
-      'span.hero__primary-text[data-testid="hero__primary-text"]'
-    )
-      .first()
-      .text();
-    console.log(title);
     const rating = $$(".sc-eb51e184-1").first().contents().text().trim();
     const contentRating = $$(".sc-ec65ba05-2 li:nth-of-type(2) a")
       .text()
@@ -91,7 +86,7 @@ async function scrapeImdb(movieTitle: string) {
     const topStars: TopStarsType[] = [];
 
     $$(".sc-bfec09a1-5").each((i, element) => {
-      // Extract title and rating
+      // Extract actor name and character name
       const actorName = $$(element).find(".sc-bfec09a1-1").text().trim();
       const characterName = $$(element).find(".sc-bfec09a1-4").text().trim();
       // Create an object and push it into the array
@@ -108,11 +103,12 @@ async function scrapeImdb(movieTitle: string) {
       if (imgUrl) photos.push(imgUrl);
     });
 
+    // return movieObj which contains all the data we extracted
     const movieObj: MovieDataType = {
       id,
-      title,
+      title: movieTitle,
       scores: {
-        imdb: { rating, reviews },
+        imdb: { rating, reviews, link: movieUrl },
       },
       contentRating,
       releaseDate,
@@ -133,24 +129,16 @@ async function scrapeImdb(movieTitle: string) {
   }
 }
 
-const getMovieId = (url: string) => {
-  const idMatch = url.match(/\/title\/(tt\d+)\//);
-
-  const id = idMatch ? idMatch[1] : null;
-
-  return id;
-};
-
 const scrapeRottenTomatoes = async (movieTitle: string) => {
   try {
     // Encode the movie title for the URL
     const query = encodeURIComponent(movieTitle);
 
-    // Step 1: Search for the movie
+    // Search for the movie
     const searchUrl = `https://www.rottentomatoes.com/search?search=${query}`;
     const searchHtml = await fetchHTML(searchUrl);
 
-    // Step 2: Parse the search results
+    // Parse the search results
     const $ = cheerio.load(searchHtml);
 
     // Rotten Tomatoes search result has movie links like /m/movie_name
@@ -161,25 +149,27 @@ const scrapeRottenTomatoes = async (movieTitle: string) => {
       return;
     }
 
-    // Step 3: Visit the movie's page to scrape the rating
-    // const movieUrl = `https://www.rottentomatoes.com${movieLink}`;
+    // Visit the movie's page to scrape the rating
     const movieHtml = await fetchHTML(movieLink);
-    // const movieHtml = movieResponse.data;
 
     const $$ = cheerio.load(movieHtml);
 
     // Get the rating from the movie page
     const rating = $$("rt-button")
-      .find('[slot="audienceScore"] rt-text')
+      .find('[slot="criticsScore"] rt-text')
       .first()
       .text()
       .trim();
-    const reviews = $$('rt-link[slot="audienceReviews"]').text().trim();
 
+    // Get the reviews from the movie page
+    const reviews = $$('rt-link[slot="criticsReviews"]').text().trim();
+
+    // return data that we gathered
     return {
       movieTitle,
       rating,
       reviews,
+      link: movieLink,
     };
   } catch (error) {
     console.error("An error occurred:", error);
@@ -191,11 +181,11 @@ const scrapeMetacritic = async (movieTitle: string) => {
     // Encode the movie title for the URL
     const query = encodeURIComponent(movieTitle);
 
-    // Step 1: Search for the movie on Metacritic
+    // Search for the movie on Metacritic
     const searchUrl = `https://www.metacritic.com/search/${query}`;
     const searchHtml = await fetchHTML(searchUrl);
 
-    // Step 2: Parse the search results
+    // Parse the search results
     const $ = cheerio.load(searchHtml);
 
     let movieLink;
@@ -219,7 +209,7 @@ const scrapeMetacritic = async (movieTitle: string) => {
       console.log(`Movie not found for title: ${movieTitle}`);
     }
 
-    // Step 3: Visit the movie's page to scrape the rating
+    // Step 3: Visit the movie's page to scrape the rating and reviews
     const movieUrl = `https://www.metacritic.com${movieLink}`;
     const movieHtml = await fetchHTML(movieUrl);
 
@@ -227,42 +217,28 @@ const scrapeMetacritic = async (movieTitle: string) => {
 
     // Get the Metascore from the movie page
     const rating = $$(
-      ".c-productScoreInfo_scoreNumber div .c-siteReviewScore_user span"
+      ".c-productScoreInfo_scoreNumber div .c-siteReviewScore span"
     )
+      .first()
       .text()
       .trim();
 
-    const reviews = $$(".c-productScoreInfo_reviewsTotal a span").eq(1).text();
+    const reviews = $$(".c-productScoreInfo_reviewsTotal a span")
+      .first()
+      .text();
 
     if (rating && reviews) {
       return {
         movieTitle,
         rating,
         reviews,
+        link: movieUrl,
       };
     } else {
       console.log(`Could not find the rating for ${movieTitle}`);
     }
   } catch (error) {
-    console.error(
-      `An error occurred while processing "${movieTitle}":`
-      // error
-    );
-  }
-};
-
-const writeJsonFile = async (movieData: Array<Record<any, any>>) => {
-  if (movieData.length > 1) {
-    const jsonData = JSON.stringify(movieData, null, 2);
-
-    // Write JSON string to a file
-    writeFile("./src/data/imdb.json", jsonData, (err) => {
-      if (err) {
-        console.error("Error writing to file", err);
-      } else {
-        console.log("JSON file has been created successfully");
-      }
-    });
+    console.error(`An error occurred while processing "${movieTitle}":`);
   }
 };
 
@@ -282,6 +258,7 @@ const main = async () => {
               movie.scores.rottenTomato = {
                 rating: rottenTomatoData.rating,
                 reviews: rottenTomatoData.reviews,
+                link: rottenTomatoData.link,
               };
             }
           });
@@ -294,6 +271,7 @@ const main = async () => {
               movie.scores.metaCritic = {
                 rating: metaCriticData.rating,
                 reviews: metaCriticData.reviews,
+                link: metaCriticData.link,
               };
             }
           });
