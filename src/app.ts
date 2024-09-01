@@ -16,6 +16,11 @@ const app: Express = express();
 
 app.use(cors());
 
+// Test landing endpoint
+app.get("/api", (req: Request, res: Response) => {
+  res.status(200).send("Welcome to MovieScoreComparer API");
+});
+
 /**
  * @endpoint /api/movies
  * @description Handles GET requests to fetch movie data from a JSON file.

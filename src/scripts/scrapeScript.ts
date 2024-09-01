@@ -2,6 +2,8 @@ import * as cheerio from "cheerio";
 import { MovieDataType, TopStarsType } from "../types/MovieDataType";
 import { getMovieId, writeJsonFile } from "../utils/scrapeUtils.js";
 
+// Although this functionality could be made dynamic by executing requests through an API endpoint,
+// for the purpose of this exercise, I have chosen to declare static movie titles here.
 const movieTitles: string[] = [
   "Casper",
   "Dumb and Dumber",
@@ -209,7 +211,7 @@ const scrapeMetacritic = async (movieTitle: string) => {
       console.log(`Movie not found for title: ${movieTitle}`);
     }
 
-    // Step 3: Visit the movie's page to scrape the rating and reviews
+    // Visit the movie's page to scrape the rating and reviews
     const movieUrl = `https://www.metacritic.com${movieLink}`;
     const movieHtml = await fetchHTML(movieUrl);
 
@@ -246,6 +248,7 @@ const main = async () => {
   try {
     const arr: MovieDataType[] = [];
 
+    console.log("Scraping movies...");
     await Promise.all(
       movieTitles.map(async (title) => {
         const imdbData = await scrapeImdb(title);
@@ -278,6 +281,7 @@ const main = async () => {
         }
       })
     );
+    console.log("Writing JSON file");
     writeJsonFile(arr);
   } catch (err) {
     console.error(err);
