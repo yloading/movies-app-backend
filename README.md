@@ -25,9 +25,16 @@ your-created-directory
 ### 3. Install Docker
 Download and install Docker for your operating system from [Docker's official website.](https://www.docker.com/)
 
-After installation, verify that Docker is running correctly by opening a terminal and running:  
+After installation, 
+1. Open Docker Desktop and agree to the Service Agreement.
+2. For this project, select "Use recommended settings" and click "Finish."
+3. Create your account (you can use Google Sign-In for this method).
+
+Verify that Docker is running correctly by opening a terminal and running:  
 `docker --version`  
 `docker-compose --version`  
+
+
 
 ### 4. Obtain Host Machine IP Address
 To access the application, you need your host machine's IP address.  
