@@ -1,0 +1,1 @@
+A `movies.json` file will be generated in this directory after running the `scrapeScript`. This file will be utilized to serve data through our API endpoint.
